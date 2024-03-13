@@ -1,4 +1,0 @@
-Cannot generate into C:\Users\sebas\OneDrive\Desktop\Codigos\2O\Parcial-1\Juego por turnos\rpg-example\cmake-build-debug
-It is already used for project C:\Users\admin\Desktop\Tarea\Game\v1.2\rpg-example
-
-Please either delete it manually or select another generation directory
