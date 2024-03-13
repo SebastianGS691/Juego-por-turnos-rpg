@@ -1,29 +1,25 @@
 #include <iostream>
 #include "Enemy/Enemy.h"
 #include "Player/Player.h"
-
-using namespace std;
-
-void Combate(Player *player, Enemy *enemy){
-  while(player->getHealth() > 0 && enemy->getHealth() > 0) {
-    player->doAttack(enemy);
-    if (enemy->getHealth() <= 0) break;
-    enemy->doAttack(player);
-    cout<<"---------------------------------------"<< endl << endl;
-  }
-}
+#include "Combat/Combat.h"
 
 int main() {
 
-    Player *player = new Player("Victor", 100, 10, 5, 5);
-    Enemy *enemy = new Enemy("Enemigo", 100, 6, 4, 3);
+    Player *player = new Player("Rediun", 20, 20, 5, 1);
+    Enemy *enemy = new Enemy("Goblin", 20, 5, 3, 7);
+    Enemy *enemy2 = new Enemy("Orco", 30, 8, 5, 2);
 
-    cout<<"\t-- Inicio de combate --"<< endl << endl;
-    Combate(player, enemy);
-    getchar();
-  
-    cout<< player->toString()<< endl << endl;
-    cout<< enemy->toString()<< endl;
-  
+    vector<Character*> participants;
+    participants.push_back(player);
+    participants.push_back(enemy);
+    participants.push_back(enemy2);
+
+    Combat* combat = new Combat(participants);
+    combat->doCombat();
+
+    delete player;
+    delete enemy;
+    delete enemy2;
+    delete combat;
     return 0;
 }

@@ -5,6 +5,7 @@
 #ifndef RPG_CHARACTER_H
 #define RPG_CHARACTER_H
 #include<string>
+#include<vector>
 
 using namespace std;
 
@@ -15,9 +16,10 @@ protected:
     int attack;
     int defense;
     int speed;
+    bool isPlayer;
 
 public:
-    Character(string, int, int, int, int);
+    Character(string, int, int, int, int, bool);
 
     virtual void doAttack(Character *target) = 0;
     virtual void takeDamage(int damage) = 0;
@@ -33,6 +35,7 @@ public:
     void setSpeed(int);
     int getSpeed();
     string toString();
+    bool getIsPlayer();
 };
 
 
