@@ -1,0 +1,3 @@
+C:/Users/sebas/OneDrive/Desktop/Codigos/2O/Proyecto juego de rpg/out/build/x64-Debug/CMakeFiles/rpg.dir
+C:/Users/sebas/OneDrive/Desktop/Codigos/2O/Proyecto juego de rpg/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/sebas/OneDrive/Desktop/Codigos/2O/Proyecto juego de rpg/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

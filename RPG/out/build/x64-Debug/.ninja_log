@@ -1,0 +1,10 @@
+# ninja log v5
+8	425	7369651148733448	CMakeFiles/rpg.dir/Character/Character.cpp.obj	faf2696975429ddc
+20	641	7369677775770386	CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj	bd6ed44f0ca9f53f
+14	656	7369678834338642	CMakeFiles/rpg.dir/main.cpp.obj	b5a48bc7eda3ae3
+26	710	7369686136886371	CMakeFiles/rpg.dir/Player/Player.cpp.obj	a7d3fb7fe023ec43
+34	803	7369686137832030	CMakeFiles/rpg.dir/Combat/Combat.cpp.obj	e16592a07689a137
+765	1050	7369651154875894	rpg.exe	dd94d6f2055c2346
+59	1079	7370056657783114	CMakeFiles/rpg.dir/Enemy/Enemy.cpp.obj	bd6ed44f0ca9f53f
+51	1081	7370056657783114	CMakeFiles/rpg.dir/Character/Character.cpp.obj	faf2696975429ddc
+62	1093	7370056657938221	CMakeFiles/rpg.dir/Combat/Combat.cpp.obj	e16592a07689a137
